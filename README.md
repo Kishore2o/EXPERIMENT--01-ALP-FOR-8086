@@ -78,24 +78,116 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
+```
+org 100h
+mov al, 74h
+mov bl, 69h
+add al,bl
+hlt 
+ret
+```
 
 
 ## Output  
- 
+
+ ![image](https://github.com/Kishore2o/EXPERIMENT--01-ALP-FOR-8086/assets/118679883/66a5b44a-5ddc-4da8-aa2f-cc919e84e336)
+
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+org 100h
+mov al, 84h
+mov bl, 63h
+sub al,bl
+hlt 
+ret
+```
 ## Output  
+
+![image](https://github.com/Kishore2o/EXPERIMENT--01-ALP-FOR-8086/assets/118679883/6aabc073-2827-48bb-a0c7-a79a9d10ae09)
+
 ## Multiplication alp 
+```
+org 100h
+mov al, 75h
+mov bl, 32h
+mul bl
+hlt 
+ret
+```
  ## Output  
+
+![image](https://github.com/Kishore2o/EXPERIMENT--01-ALP-FOR-8086/assets/118679883/25f5b1bd-a5fc-4bac-ad92-5915729d73ae)
 
 
 ## Division alp 
-
+```
+org 100h
+mov al, 75h
+mov bl, 32h
+div bl
+hlt 
+ret
+```
 ## Output  
 
+![image](https://github.com/Kishore2o/EXPERIMENT--01-ALP-FOR-8086/assets/118679883/0e3eb7a5-6306-4e00-a5f8-ddfe9dfab07b)
 
-## Result :
+### OR Operation :
+```
+org 100H  
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+ret
+```
+### Output :
+
+![image](https://github.com/Kishore2o/EXPERIMENT--01-ALP-FOR-8086/assets/118679883/146d220d-150f-4e51-83fd-c15f38582e92)
+
+### And Operation :
+```
+org 100
+MOV al,32H;
+MOV bl,64H;
+and al,bl; 
+hlt
+ret
+```
+### Output :
+
+![image](https://github.com/Kishore2o/EXPERIMENT--01-ALP-FOR-8086/assets/118679883/bb69cda6-2d1c-4997-ab93-5d2f6a15b341)
+
+### NOT Operation :
+```
+org 100
+MOV al,32H;
+MOV bl,74H;
+and bl; 
+hlt
+ret
+```
+### Output:
+
+![image](https://github.com/Kishore2o/EXPERIMENT--01-ALP-FOR-8086/assets/118679883/fb07cdf6-aaae-4964-a9d4-931dd9ff2bb8)
+
+### XOR Operation :
+```
+org 100
+MOV al,32H;
+MOV bl,74H;
+xor al,bl; 
+hlt
+ret
+```
+### Output:
+
+![image](https://github.com/Kishore2o/EXPERIMENT--01-ALP-FOR-8086/assets/118679883/4a4f8387-c8bf-44a0-b4fc-4f8f7105e1ab)
+
+
+### Result :
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
  
 
 
