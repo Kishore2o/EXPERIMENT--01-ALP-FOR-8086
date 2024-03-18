@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+## Name : S.Kishore
+## Roll no : 212222240050
+## Date of experiment : 18.03.24
 
 
 
