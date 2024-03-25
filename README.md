@@ -135,11 +135,11 @@ ret
 
 ### OR Operation :
 ```
-org 100H  
-MOV SI,0532H;
-MOV AX,0A32H;
-MOV BX,0B13H;
-OR AX,BX;
+org 100h
+mov al, 32h;
+mov bl, 32h;
+or al,bl;
+hlt 
 ret
 ```
 ### Output :
