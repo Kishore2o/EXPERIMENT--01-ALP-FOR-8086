@@ -164,7 +164,7 @@ ret
 org 100
 MOV al,32H;
 MOV bl,74H;
-and bl; 
+not bl; 
 hlt
 ret
 ```
